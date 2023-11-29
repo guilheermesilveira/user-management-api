@@ -1,3 +1,4 @@
+using UserManagement.API.Configuration;
 using UserManagement.Application;
 using UserManagement.Infra.Data;
 
@@ -5,9 +6,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddApplication(builder);
 builder.Services.AddInfraData(builder.Configuration);
+builder.Services.AddSwagger();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
@@ -19,6 +20,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseCors("default");
+
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
