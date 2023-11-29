@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "pWdg+VPl+voQbWTEh1FvUTn/07iIbg8jLdVEsMGyynrZAWCxIpY7eJD1SzwAltPssXSDnwnb92XII16SrjaNYg==",
+  "dgSpecHash": "mif8nn42DIvfNrpc2q6OSiQ2WTnLMluAjHop4J92xGmNzg/YscragHZ+Guc8pH2Jd6VGZpHB/1VfY6MYG0zjCg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Infra.Data\\UserManagement.Infra.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Guilherme\\.nuget\\packages\\fluentvalidation\\11.8.1\\fluentvalidation.11.8.1.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.14\\microsoft.entityframeworkcore.7.0.14.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.14\\microsoft.entityframeworkcore.abstractions.7.0.14.nupkg.sha512",

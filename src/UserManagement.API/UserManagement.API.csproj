@@ -24,4 +24,8 @@
       <Folder Include="Controllers\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\UserManagement.Infra.Data\UserManagement.Infra.Data.csproj" />
+    </ItemGroup>
+
 </Project>

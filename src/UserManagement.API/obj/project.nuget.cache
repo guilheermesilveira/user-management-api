@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "t7YN/8FWUtggG9VSl26pJCwlTeKt9fIdLpC9ryftUiJqJVQGb9/UmrQqcip8roRncwBu8HFRQRHVHYt7FkPZZg==",
+  "dgSpecHash": "Sqba4czCHjCxhN4s0UXiwqJ5NslFsY4TSwMTc1Jbe+nTPULkHo7sbhkTenlrJs42UMsCflKDkcT2XCO6dBNXTA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.API\\UserManagement.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Guilherme\\.nuget\\packages\\fluentvalidation\\11.8.1\\fluentvalidation.11.8.1.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

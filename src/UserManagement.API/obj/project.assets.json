@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "FluentValidation/11.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -1172,10 +1185,61 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "UserManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FluentValidation": "11.8.1"
+        },
+        "compile": {
+          "bin/placeholder/UserManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserManagement.Domain.dll": {}
+        }
+      },
+      "UserManagement.Infra.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.14",
+          "Pomelo.EntityFrameworkCore.MySql": "7.0.0",
+          "UserManagement.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UserManagement.Infra.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserManagement.Infra.Data.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "FluentValidation/11.8.1": {
+      "sha512": "N72rnlE99XYB7EGA1u9y7m7kNTTynqOPBhZqDE8zr1Y0aSR4t5si94LRA7UVdAV09GaXWCErW+EiFhfbg3DSbg==",
+      "type": "package",
+      "path": "fluentvalidation/11.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.8.1.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
     "Humanizer.Core/2.14.1": {
       "sha512": "lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "type": "package",
@@ -2974,6 +3038,16 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "UserManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../UserManagement.Domain/UserManagement.Domain.csproj",
+      "msbuildProject": "../UserManagement.Domain/UserManagement.Domain.csproj"
+    },
+    "UserManagement.Infra.Data/1.0.0": {
+      "type": "project",
+      "path": "../UserManagement.Infra.Data/UserManagement.Infra.Data.csproj",
+      "msbuildProject": "../UserManagement.Infra.Data/UserManagement.Infra.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2985,7 +3059,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 7.0.14",
       "Pomelo.EntityFrameworkCore.MySql >= 7.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0",
-      "Swashbuckle.AspNetCore.Annotations >= 6.5.0"
+      "Swashbuckle.AspNetCore.Annotations >= 6.5.0",
+      "UserManagement.Infra.Data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3012,7 +3087,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Infra.Data\\UserManagement.Infra.Data.csproj": {
+              "projectPath": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Infra.Data\\UserManagement.Infra.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
