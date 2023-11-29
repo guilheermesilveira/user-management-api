@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NPo+YMHaTlvHSEDaanZYl1XhMYoTyTPGKraEi3iCOLFphfm+9id+Jbc/obJmuVYCnbGa9aYTDzNqKa77I+JV0w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Domain\\UserManagement.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Guilherme\\.nuget\\packages\\fluentvalidation\\11.8.1\\fluentvalidation.11.8.1.nupkg.sha512"
+  ],
+  "logs": []
+}
