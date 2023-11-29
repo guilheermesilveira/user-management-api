@@ -1,7 +1,9 @@
+using UserManagement.Application;
 using UserManagement.Infra.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddApplication(builder);
 builder.Services.AddInfraData(builder.Configuration);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
