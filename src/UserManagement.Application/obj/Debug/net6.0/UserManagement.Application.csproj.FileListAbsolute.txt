@@ -1,0 +1,15 @@
+/home/guilherme/Dev/user-management-api/src/UserManagement.Application/bin/Debug/net6.0/UserManagement.Application.deps.json
+/home/guilherme/Dev/user-management-api/src/UserManagement.Application/bin/Debug/net6.0/UserManagement.Application.dll
+/home/guilherme/Dev/user-management-api/src/UserManagement.Application/bin/Debug/net6.0/ref/UserManagement.Application.dll
+/home/guilherme/Dev/user-management-api/src/UserManagement.Application/bin/Debug/net6.0/UserManagement.Application.pdb
+/home/guilherme/Dev/user-management-api/src/UserManagement.Application/bin/Debug/net6.0/UserManagement.Domain.dll
+/home/guilherme/Dev/user-management-api/src/UserManagement.Application/bin/Debug/net6.0/UserManagement.Domain.pdb
+/home/guilherme/Dev/user-management-api/src/UserManagement.Application/obj/Debug/net6.0/UserManagement.Application.csproj.AssemblyReference.cache
+/home/guilherme/Dev/user-management-api/src/UserManagement.Application/obj/Debug/net6.0/UserManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/guilherme/Dev/user-management-api/src/UserManagement.Application/obj/Debug/net6.0/UserManagement.Application.AssemblyInfoInputs.cache
+/home/guilherme/Dev/user-management-api/src/UserManagement.Application/obj/Debug/net6.0/UserManagement.Application.AssemblyInfo.cs
+/home/guilherme/Dev/user-management-api/src/UserManagement.Application/obj/Debug/net6.0/UserManagement.Application.csproj.CoreCompileInputs.cache
+/home/guilherme/Dev/user-management-api/src/UserManagement.Application/obj/Debug/net6.0/UserManagement.Application.csproj.CopyComplete
+/home/guilherme/Dev/user-management-api/src/UserManagement.Application/obj/Debug/net6.0/UserManagement.Application.dll
+/home/guilherme/Dev/user-management-api/src/UserManagement.Application/obj/Debug/net6.0/ref/UserManagement.Application.dll
+/home/guilherme/Dev/user-management-api/src/UserManagement.Application/obj/Debug/net6.0/UserManagement.Application.pdb

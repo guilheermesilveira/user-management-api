@@ -29,8 +29,8 @@ public class UserController : MainController
         return CreatedResponse("", createUser);
     }
 
-    [HttpPut("update")]
-    [SwaggerOperation("Update a user")]
+    [HttpPut("update/{id}")]
+    [SwaggerOperation(Summary = "Update a user")]
     [ProducesResponseType(typeof(UserDto), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(BadRequestResult), StatusCodes.Status400BadRequest)]
     [ProducesResponseType(typeof(NotFoundResult), StatusCodes.Status404NotFound)]
@@ -41,7 +41,7 @@ public class UserController : MainController
     }
 
     [HttpDelete("delete/{id}")]
-    [SwaggerOperation("Delete a user")]
+    [SwaggerOperation(Summary = "Delete a user")]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(typeof(NotFoundResult), StatusCodes.Status404NotFound)]
     public async Task<IActionResult> Delete(int id)

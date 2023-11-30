@@ -16,10 +16,34 @@
           "Pomelo.EntityFrameworkCore.MySql": "7.0.0",
           "Swashbuckle.AspNetCore": "6.5.0",
           "Swashbuckle.AspNetCore.Annotations": "6.5.0",
+          "UserManagement.Application": "1.0.0",
           "UserManagement.Infra.Data": "1.0.0"
         },
         "runtime": {
           "UserManagement.API.dll": {}
+        }
+      },
+      "AutoMapper/12.0.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.0"
+          }
+        }
+      },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.1": {
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "Microsoft.Extensions.Options": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.0"
+          }
         }
       },
       "FluentValidation/11.8.1": {
@@ -35,6 +59,38 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "libsodium/1.0.18": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0"
+        },
+        "runtimeTargets": {
+          "runtimes/linux-musl-x64/native/libsodium.so": {
+            "rid": "linux-musl-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libsodium.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libsodium.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libsodium.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libsodium.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -166,7 +222,7 @@
           "System.Text.Encodings.Web": "7.0.0"
         }
       },
-      "Microsoft.CSharp/4.5.0": {},
+      "Microsoft.CSharp/4.7.0": {},
       "Microsoft.EntityFrameworkCore/7.0.14": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Abstractions": "7.0.14",
@@ -423,7 +479,7 @@
       },
       "Microsoft.IdentityModel.Tokens/6.10.0": {
         "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
+          "Microsoft.CSharp": "4.7.0",
           "Microsoft.IdentityModel.Logging": "6.10.0",
           "System.Security.Cryptography.Cng": "4.5.0"
         },
@@ -483,6 +539,30 @@
           "lib/net6.0/Pomelo.EntityFrameworkCore.MySql.dll": {
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "ScottBrady91.AspNetCore.Identity.Argon2PasswordHasher/1.4.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Identity.Core": "6.0.25",
+          "Sodium.Core": "1.2.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ScottBrady91.AspNetCore.Identity.Argon2PasswordHasher.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Sodium.Core/1.2.3": {
+        "dependencies": {
+          "System.ValueTuple": "4.5.0",
+          "libsodium": "1.0.18"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Sodium.Core.dll": {
+            "assemblyVersion": "1.2.3.0",
+            "fileVersion": "1.2.3.0"
           }
         }
       },
@@ -622,6 +702,19 @@
           }
         }
       },
+      "System.ValueTuple/4.5.0": {},
+      "UserManagement.Application/1.0.0": {
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "FluentValidation": "11.8.1",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.25",
+          "ScottBrady91.AspNetCore.Identity.Argon2PasswordHasher": "1.4.0",
+          "UserManagement.Domain": "1.0.0"
+        },
+        "runtime": {
+          "UserManagement.Application.dll": {}
+        }
+      },
       "UserManagement.Domain/1.0.0": {
         "dependencies": {
           "FluentValidation": "11.8.1"
@@ -648,6 +741,20 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AutoMapper/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hvV62vl6Hp/WfQ24yzo3Co9+OPl8wH8hApwVtgWpiAynVJkUcs7xvehnSftawL8Pe8FrPffBRM3hwzLQqWDNjA==",
+      "path": "automapper/12.0.1",
+      "hashPath": "automapper.12.0.1.nupkg.sha512"
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+g/K+Vpe3gGMKGzjslMOdqNlkikScDjWfVvmWTayrDHaG/n2pPmFBMa+jKX1r/h6BDGFdkyRjAuhFE3ykW+r1g==",
+      "path": "automapper.extensions.microsoft.dependencyinjection/12.0.1",
+      "hashPath": "automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512"
+    },
     "FluentValidation/11.8.1": {
       "type": "package",
       "serviceable": true,
@@ -661,6 +768,13 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "libsodium/1.0.18": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ajv3AR9Qg/C4SQcE2ONx/UieeKnn5lSvVNc6egC3p6NP6qjZzWJ+Xg2vJURNYjkpHui/KctBwQjMPqpZK8/CHA==",
+      "path": "libsodium/1.0.18",
+      "hashPath": "libsodium.1.0.18.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication/2.2.0": {
       "type": "package",
@@ -774,12 +888,12 @@
       "path": "microsoft.aspnetcore.webutilities/2.2.0",
       "hashPath": "microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512"
     },
-    "Microsoft.CSharp/4.5.0": {
+    "Microsoft.CSharp/4.7.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
-      "path": "microsoft.csharp/4.5.0",
-      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/7.0.14": {
       "type": "package",
@@ -1019,6 +1133,20 @@
       "path": "pomelo.entityframeworkcore.mysql/7.0.0",
       "hashPath": "pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512"
     },
+    "ScottBrady91.AspNetCore.Identity.Argon2PasswordHasher/1.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-epZlYb1tMgyr3aks9EuVXxrpIp3Ibvi/miDB73MpJfg3is3EL/rAywh0Rki5icwlCF7zWAKdu7ghvsqzNM5/TA==",
+      "path": "scottbrady91.aspnetcore.identity.argon2passwordhasher/1.4.0",
+      "hashPath": "scottbrady91.aspnetcore.identity.argon2passwordhasher.1.4.0.nupkg.sha512"
+    },
+    "Sodium.Core/1.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D5ORYOBE9nclyCAxEGe0AepSUTOwNhI3Aii/tzR/KqQanXNivmAFMANXmAiCYbN4aVbDAd/DxYA9qufIIpN4JQ==",
+      "path": "sodium.core/1.2.3",
+      "hashPath": "sodium.core.1.2.3.nupkg.sha512"
+    },
     "Swashbuckle.AspNetCore/6.5.0": {
       "type": "package",
       "serviceable": true,
@@ -1137,6 +1265,18 @@
       "sha512": "sha512-DaGSsVqKsn/ia6RG8frjwmJonfos0srquhw09TlT8KRw5I43E+4gs+/bZj4K0vShJ5H9imCuXupb4RmS+dBy3w==",
       "path": "system.text.json/7.0.0",
       "hashPath": "system.text.json.7.0.0.nupkg.sha512"
+    },
+    "System.ValueTuple/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "path": "system.valuetuple/4.5.0",
+      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
+    },
+    "UserManagement.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "UserManagement.Domain/1.0.0": {
       "type": "project",

@@ -3306,19 +3306,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Guilherme\\.nuget\\packages\\": {}
+    "/home/guilherme/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.API\\UserManagement.API.csproj",
+      "projectUniqueName": "/home/guilherme/Dev/user-management-api/src/UserManagement.API/UserManagement.API.csproj",
       "projectName": "UserManagement.API",
-      "projectPath": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.API\\UserManagement.API.csproj",
-      "packagesPath": "C:\\Users\\Guilherme\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.API\\obj\\",
+      "projectPath": "/home/guilherme/Dev/user-management-api/src/UserManagement.API/UserManagement.API.csproj",
+      "packagesPath": "/home/guilherme/.nuget/packages/",
+      "outputPath": "/home/guilherme/Dev/user-management-api/src/UserManagement.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Guilherme\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/guilherme/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -3330,11 +3330,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Application\\UserManagement.Application.csproj": {
-              "projectPath": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Application\\UserManagement.Application.csproj"
+            "/home/guilherme/Dev/user-management-api/src/UserManagement.Application/UserManagement.Application.csproj": {
+              "projectPath": "/home/guilherme/Dev/user-management-api/src/UserManagement.Application/UserManagement.Application.csproj"
             },
-            "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Infra.Data\\UserManagement.Infra.Data.csproj": {
-              "projectPath": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Infra.Data\\UserManagement.Infra.Data.csproj"
+            "/home/guilherme/Dev/user-management-api/src/UserManagement.Infra.Data/UserManagement.Infra.Data.csproj": {
+              "projectPath": "/home/guilherme/Dev/user-management-api/src/UserManagement.Infra.Data/UserManagement.Infra.Data.csproj"
             }
           }
         }
@@ -3390,8 +3390,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -3403,7 +3402,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.110/sdk/6.0.110/RuntimeIdentifierGraph.json"
       }
     }
   }

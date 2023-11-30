@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.API\\UserManagement.API.csproj": {}
+    "/home/guilherme/Dev/user-management-api/src/UserManagement.API/UserManagement.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.API\\UserManagement.API.csproj": {
+    "/home/guilherme/Dev/user-management-api/src/UserManagement.API/UserManagement.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.API\\UserManagement.API.csproj",
+        "projectUniqueName": "/home/guilherme/Dev/user-management-api/src/UserManagement.API/UserManagement.API.csproj",
         "projectName": "UserManagement.API",
-        "projectPath": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.API\\UserManagement.API.csproj",
-        "packagesPath": "C:\\Users\\Guilherme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.API\\obj\\",
+        "projectPath": "/home/guilherme/Dev/user-management-api/src/UserManagement.API/UserManagement.API.csproj",
+        "packagesPath": "/home/guilherme/.nuget/packages/",
+        "outputPath": "/home/guilherme/Dev/user-management-api/src/UserManagement.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Guilherme\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/guilherme/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -26,11 +26,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Application\\UserManagement.Application.csproj": {
-                "projectPath": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Application\\UserManagement.Application.csproj"
+              "/home/guilherme/Dev/user-management-api/src/UserManagement.Application/UserManagement.Application.csproj": {
+                "projectPath": "/home/guilherme/Dev/user-management-api/src/UserManagement.Application/UserManagement.Application.csproj"
               },
-              "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Infra.Data\\UserManagement.Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Infra.Data\\UserManagement.Infra.Data.csproj"
+              "/home/guilherme/Dev/user-management-api/src/UserManagement.Infra.Data/UserManagement.Infra.Data.csproj": {
+                "projectPath": "/home/guilherme/Dev/user-management-api/src/UserManagement.Infra.Data/UserManagement.Infra.Data.csproj"
               }
             }
           }
@@ -86,8 +86,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -99,21 +98,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.110/sdk/6.0.110/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Application\\UserManagement.Application.csproj": {
+    "/home/guilherme/Dev/user-management-api/src/UserManagement.Application/UserManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Application\\UserManagement.Application.csproj",
+        "projectUniqueName": "/home/guilherme/Dev/user-management-api/src/UserManagement.Application/UserManagement.Application.csproj",
         "projectName": "UserManagement.Application",
-        "projectPath": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Application\\UserManagement.Application.csproj",
-        "packagesPath": "C:\\Users\\Guilherme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Application\\obj\\",
+        "projectPath": "/home/guilherme/Dev/user-management-api/src/UserManagement.Application/UserManagement.Application.csproj",
+        "packagesPath": "/home/guilherme/.nuget/packages/",
+        "outputPath": "/home/guilherme/Dev/user-management-api/src/UserManagement.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Guilherme\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/guilherme/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -125,8 +124,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Domain\\UserManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Domain\\UserManagement.Domain.csproj"
+              "/home/guilherme/Dev/user-management-api/src/UserManagement.Domain/UserManagement.Domain.csproj": {
+                "projectPath": "/home/guilherme/Dev/user-management-api/src/UserManagement.Domain/UserManagement.Domain.csproj"
               }
             }
           }
@@ -164,8 +163,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -174,21 +172,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.110/sdk/6.0.110/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Domain\\UserManagement.Domain.csproj": {
+    "/home/guilherme/Dev/user-management-api/src/UserManagement.Domain/UserManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Domain\\UserManagement.Domain.csproj",
+        "projectUniqueName": "/home/guilherme/Dev/user-management-api/src/UserManagement.Domain/UserManagement.Domain.csproj",
         "projectName": "UserManagement.Domain",
-        "projectPath": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Domain\\UserManagement.Domain.csproj",
-        "packagesPath": "C:\\Users\\Guilherme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Domain\\obj\\",
+        "projectPath": "/home/guilherme/Dev/user-management-api/src/UserManagement.Domain/UserManagement.Domain.csproj",
+        "packagesPath": "/home/guilherme/.nuget/packages/",
+        "outputPath": "/home/guilherme/Dev/user-management-api/src/UserManagement.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Guilherme\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/guilherme/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -223,8 +221,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -233,21 +230,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.110/sdk/6.0.110/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Infra.Data\\UserManagement.Infra.Data.csproj": {
+    "/home/guilherme/Dev/user-management-api/src/UserManagement.Infra.Data/UserManagement.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Infra.Data\\UserManagement.Infra.Data.csproj",
+        "projectUniqueName": "/home/guilherme/Dev/user-management-api/src/UserManagement.Infra.Data/UserManagement.Infra.Data.csproj",
         "projectName": "UserManagement.Infra.Data",
-        "projectPath": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Infra.Data\\UserManagement.Infra.Data.csproj",
-        "packagesPath": "C:\\Users\\Guilherme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Infra.Data\\obj\\",
+        "projectPath": "/home/guilherme/Dev/user-management-api/src/UserManagement.Infra.Data/UserManagement.Infra.Data.csproj",
+        "packagesPath": "/home/guilherme/.nuget/packages/",
+        "outputPath": "/home/guilherme/Dev/user-management-api/src/UserManagement.Infra.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Guilherme\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/guilherme/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -259,8 +256,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Domain\\UserManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Domain\\UserManagement.Domain.csproj"
+              "/home/guilherme/Dev/user-management-api/src/UserManagement.Domain/UserManagement.Domain.csproj": {
+                "projectPath": "/home/guilherme/Dev/user-management-api/src/UserManagement.Domain/UserManagement.Domain.csproj"
               }
             }
           }
@@ -296,8 +293,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -306,7 +302,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.110/sdk/6.0.110/RuntimeIdentifierGraph.json"
         }
       }
     }
