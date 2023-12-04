@@ -28,10 +28,8 @@ public class AdministratorService : BaseService, IAdministratorService
         var tokenLogin = _configuration["Jwt:Login"];
         var tokenPassword = _configuration["Jwt:Password"];
 
-        if (dto.Login == tokenLogin && dto.Password == tokenPassword)
-        {
+        if (dto.Login == tokenLogin && dto.Password == tokenPassword) 
             return GenerateToken();
-        }
 
         Notificator.Handle("Login ou senha estão incorretos.");
         return null;

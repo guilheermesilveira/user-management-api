@@ -25,15 +25,11 @@ public abstract class EntityRepository<T> : IEntityRepository<T> where T : Entit
     
     protected virtual void Dispose(bool disposing)
     {
-        if (_isDisposed)
-        {
+        if (_isDisposed) 
             return;
-        }
 
-        if (disposing)
-        {
+        if (disposing) 
             Context.Dispose();
-        }
 
         _isDisposed = true;
     }

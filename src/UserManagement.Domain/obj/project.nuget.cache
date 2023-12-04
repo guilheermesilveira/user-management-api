@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "qQ6p13QMX1oGIDsJeZjJTEeU2kDx0+2lTdDTKJ7+s6GSEkOZ8i90pM2lf4nqcO6TaxECAW8VWekW75tapWLI9A==",
+  "dgSpecHash": "NPo+YMHaTlvHSEDaanZYl1XhMYoTyTPGKraEi3iCOLFphfm+9id+Jbc/obJmuVYCnbGa9aYTDzNqKa77I+JV0w==",
   "success": true,
-  "projectFilePath": "/home/guilherme/Dev/user-management-api/src/UserManagement.Domain/UserManagement.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Domain\\UserManagement.Domain.csproj",
   "expectedPackageFiles": [
-    "/home/guilherme/.nuget/packages/fluentvalidation/11.8.1/fluentvalidation.11.8.1.nupkg.sha512"
+    "C:\\Users\\Guilherme\\.nuget\\packages\\fluentvalidation\\11.8.1\\fluentvalidation.11.8.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -8,7 +8,7 @@ namespace UserManagement.Infra.Data.Repositories;
 public class UserRepository : EntityRepository<User>, IUserRepository
 {
     public UserRepository(ApplicationDbContext context) : base(context)
-    {}
+    { }
     
     public void Create(User user)
     {

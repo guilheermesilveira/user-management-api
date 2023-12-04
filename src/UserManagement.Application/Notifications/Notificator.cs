@@ -9,10 +9,8 @@ public class Notificator : INotificator
 
     public void Handle(string message)
     {
-        if (_notFoundResource)
-        {
+        if (_notFoundResource) 
             throw new InvalidOperationException("Cannot call Handle when there are NotFoundResource!");
-        }
         
         _notifications.Add(message);
     }
@@ -24,10 +22,8 @@ public class Notificator : INotificator
 
     public void HandleNotFoundResource()
     {
-        if (HasNotification)
-        {
+        if (HasNotification) 
             throw new InvalidOperationException("Cannot call HandleNotFoundResource when there are notifications!");
-        }
         
         _notFoundResource = true;
     }

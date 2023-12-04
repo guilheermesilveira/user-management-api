@@ -9,7 +9,7 @@ namespace UserManagement.Infra.Data.Context;
 public class ApplicationDbContext : DbContext, IUnitOfWork
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
-    {}
+    { }
 
     public virtual DbSet<User> Users { get; set; } = null!;
 

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/guilherme/Dev/user-management-api/src/UserManagement.Domain/UserManagement.Domain.csproj": {}
+    "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Domain\\UserManagement.Domain.csproj": {}
   },
   "projects": {
-    "/home/guilherme/Dev/user-management-api/src/UserManagement.Domain/UserManagement.Domain.csproj": {
+    "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Domain\\UserManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/guilherme/Dev/user-management-api/src/UserManagement.Domain/UserManagement.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Domain\\UserManagement.Domain.csproj",
         "projectName": "UserManagement.Domain",
-        "projectPath": "/home/guilherme/Dev/user-management-api/src/UserManagement.Domain/UserManagement.Domain.csproj",
-        "packagesPath": "/home/guilherme/.nuget/packages/",
-        "outputPath": "/home/guilherme/Dev/user-management-api/src/UserManagement.Domain/obj/",
+        "projectPath": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Domain\\UserManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Guilherme\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Guilherme\\Dev\\user-management-api\\src\\UserManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/guilherme/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Guilherme\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -49,7 +49,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -58,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.110/sdk/6.0.110/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
         }
       }
     }
